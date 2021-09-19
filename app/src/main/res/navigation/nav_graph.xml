@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.bootcamphmw3.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_battleFragment2"
+            app:destination="@id/battleFragment"
+            app:exitAnim="@android:anim/slide_in_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/battleFragment"
+        android:name="com.example.bootcamphmw3.BattleFragment"
+        android:label="fragment_battle"
+        tools:layout="@layout/fragment_battle" />
+    <fragment
+        android:id="@+id/decksFragment"
+        android:name="com.example.bootcamphmw3.DecksFragment"
+        android:label="fragment_decks"
+        tools:layout="@layout/fragment_decks" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.bootcamphmw3.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_avatarFragment"
+            app:destination="@id/avatarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/avatarFragment"
+        android:name="com.example.bootcamphmw3.AvatarFragment"
+        android:label="fragment_avatar"
+        tools:layout="@layout/fragment_avatar" />
+</navigation>

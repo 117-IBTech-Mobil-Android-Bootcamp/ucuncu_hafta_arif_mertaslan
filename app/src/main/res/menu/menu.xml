@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/battleFragment"
+        android:icon="@drawable/ic_battlepassive"
+        android:contentDescription="@string/battle"
+        android:title="@string/battle"/>
+
+    <item
+        android:id="@+id/decksFragment"
+        android:icon="@drawable/ic_deckpassive"
+        android:contentDescription="@string/decks"
+        android:title="@string/decks"/>
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_profilepassive"
+        android:contentDescription="@string/profile"
+        android:title="@string/profile"/>
+
+</menu>

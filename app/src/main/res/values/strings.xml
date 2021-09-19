@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BootcampHmw3</string>
+    <string name="hello_splash_fragment">Hello splash fragment</string>
+    <string name="hello_battle_fragment">Hello battle fragment</string>
+    <string name="hello_decks_fragment">Hello decks fragment</string>
+    <string name="hello_profile_fragment">Hello profile fragment</string>
+    <string name="hello_avatar_fragment">Hello avatar fragment</string>
+    <string name="battle">Battle</string>
+    <string name="decks">Decklerim</string>
+    <string name="profile">Profile</string>
+    <string name="follow_us">Bizi takip edin</string>
+</resources>
